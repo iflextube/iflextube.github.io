@@ -520,7 +520,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .services .icon {
   display: table;
   text-align: center;
-  margin: 0 auto;
+  margin: 5 auto;
   margin-bottom: 30px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
