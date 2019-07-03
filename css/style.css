@@ -581,6 +581,24 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-transform: translate3d(0, -15px, 0);
   transform: translate3d(0, -15px, 0);
 }
+
+@media screen and (max-width: 768px) {
+  .work .desc h3 {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.445); 
+    margin-bottom: 0;
+  }
+
+  .work .desc span {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.445); 
+  }
+
+  .work .desc {
+    vertical-align: bottom;
+  }
+}
+
 .work .desc span {
   display: block;
   color: #999999;
