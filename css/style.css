@@ -543,6 +543,10 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
 }
 
+.services .icon img {
+  margin-bottom: 2px;
+}
+
 .work {
   background-size: cover;
   background-position: center center;
