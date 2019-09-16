@@ -529,7 +529,7 @@
 	<script type="text/javascript">
 		function themoShowMailingPopUp() {
 			window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us4.list-manage.com","uuid":" f2c492baf72af2ab2601fcf83","lid":"78eb54b574","uniqueMethods":true}) })
-			document.cookie = "MCPopupClosed=; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+			document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC;path=/";
 		};
 	
 		document.getElementById("themo-get-notified").onclick = function() {console.log('test');themoShowMailingPopUp()};
